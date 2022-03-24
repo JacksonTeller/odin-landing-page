@@ -60,7 +60,7 @@ a {
     align-items: center;
 }
 
-button {
+.top-button {
     margin: 8px 0;
     padding: 4px;
     width: 120px;
@@ -114,4 +114,29 @@ img {
     font-size: 32px;
     font-weight: 700;
     align-self: flex-end;
+}
+
+/* fourth-layer */
+
+.fourth-layer {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-container {
+    background-color:aliceblue;
+    display: flex;
+    padding: 48px 100px;
+    gap: 100px;
+}
+
+.bottom-button {
+    margin: 8px 0;
+    padding: 4px;
+    width: 120px;
+}
+
+.hero-bottom {
+    font-size: 24px;
+    font-weight: 700;
 }
