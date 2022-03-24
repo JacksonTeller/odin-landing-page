@@ -33,7 +33,7 @@ a {
 .first-layer {
     display: flex;
     justify-content: center;
-    padding: 72px;
+    padding: 110px;
 }
 
 .content {
@@ -63,4 +63,27 @@ button {
     margin: 8px 0;
     padding: 4px;
     width: 120px;
+}
+
+/* second-layer*/
+
+.second-layer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+    
+}
+
+img {
+    height: 180px;
+    width: 180px;
 }
