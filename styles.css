@@ -97,3 +97,21 @@ img {
     width: 180px;
     text-align: center;
 }
+
+/* third-layer */
+
+.third-layer {
+    display: flex;
+    flex-direction: column;
+    padding: 62px 300px;
+}
+
+.quote {
+    font-size: 36px;
+}
+
+.author {
+    font-size: 32px;
+    font-weight: 700;
+    align-self: flex-end;
+}
