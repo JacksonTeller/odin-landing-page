@@ -121,10 +121,12 @@ img {
 .fourth-layer {
     display: flex;
     justify-content: center;
+    padding: 62px;
 }
 
 .bottom-container {
     background-color:aliceblue;
+    border-radius: 25px;
     display: flex;
     padding: 48px 100px;
     gap: 100px;
@@ -139,4 +141,13 @@ img {
 .hero-bottom {
     font-size: 24px;
     font-weight: 700;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 42px;
 }
