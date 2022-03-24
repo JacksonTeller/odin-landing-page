@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+/* header */
 .header {
     height: 50px;
     display: flex;
@@ -20,4 +20,41 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+/* first-layer*/
+
+.first-layer {
+    display: flex;
+    justify-content: center;
+    padding: 72px;
+}
+
+.content {
+    width: 500px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-main{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.image-placeholder {
+    background-color: bisque;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 8px 0;
+    padding: 4px;
+    width: 120px;
 }
