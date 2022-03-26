@@ -6,7 +6,7 @@ body {
 
 /* header */
 .header {
-    background-color: #1f2937;
+    background-color: #da674a;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ a {
 /* first-layer*/
 
 .first-layer {
-    background-color: #1f2937;
+    background-image: linear-gradient(#da674a, #ffaa67);
     display: flex;
     justify-content: center;
     padding: 110px;
@@ -49,7 +49,7 @@ a {
     color: #e5e7eb;
     font-size: 18px;
     width: 500px;
-    height: 230px;
+    height: 333px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,7 +64,7 @@ a {
 
 .image-placeholder {
     width: 500px;
-    height: 230px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +75,7 @@ a {
     margin: 8px 0;
     padding: 8px;
     width: 120px;
-    background-color: #3882f6;
+    background-color: #ffaa67;
     color: #f9f8fa;
     font-weight: 700;
     border: 0;
@@ -84,6 +84,7 @@ a {
 /* second-layer*/
 
 .second-layer {
+    background-color: #ffdc7c;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,7 +94,7 @@ a {
 .cards-header {
     font-size: 36px;
     font-weight: 800;
-    color: #1f2937;
+    color: #2b4d59;
     padding: 64px;
 }
 
@@ -101,6 +102,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 32px;
+    color: #2b4d59;
 }
 
 img {
@@ -117,7 +119,7 @@ img {
 /* third-layer */
 
 .third-layer {
-    background-color: #e5e7eb;
+    background-color: #39998e;
     display: flex;
     flex-direction: column;
     padding: 62px 300px;
@@ -126,25 +128,29 @@ img {
 .quote {
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
+    color: #f9f8fa;
 }
 
 .author {
     font-size: 32px;
     font-weight: 700;
     align-self: flex-end;
+    color: #f9f8fa;
 }
 
 /* fourth-layer */
 
 .fourth-layer {
+    /* background-color: #2b4b59; */
+    background-image: linear-gradient(#39998e, #2b4d59);
     display: flex;
     justify-content: center;
     padding: 62px;
 }
 
 .bottom-container {
-    background-color: #3882f6;
+    background-color: #39998e;
+    color: #f9f8fa;
     border-radius: 25px;
     display: flex;
     padding: 48px 100px;
@@ -156,7 +162,7 @@ img {
     padding: 4px;
     width: 120px;
     color: #f9f8fa;
-    background-color: #3882f6;
+    background-color: #39998e;
     border: 2px solid #f9f8fa;
     border-radius: 5px;
 }
@@ -169,7 +175,7 @@ img {
 /* footer */
 
 .footer {
-    background-color: #1f2937;
+    background-color: #2b4d59;
     color: #f9f8fa;
     display: flex;
     justify-content: center;
